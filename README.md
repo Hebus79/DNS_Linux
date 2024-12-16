@@ -2,14 +2,13 @@
 Résultat du challenge WCS serveur DNS sous Linux
 
 
-Prérequis, régler l'adresse IP du serveur DNS sur 192.168.0.40/24
+Prérequis, régler l'adresse IP du serveur DNS sur 192.168.0.40/24 et l'adresse du client Linux sur 192.168.1.41/24
 Pour répondre au challenge, il suffit de remplacer dans les lignes de commandes ci-dessous "linuxtechi.local" par "wilders.lan"
 
 
 
 ## 1) Installer le Package Bind 9
 
-![DNS_Linux](https://github.com/Hebus79/DNS_Linux/blob/main/images/1-.png)
 
   $ sudo apt update
   $ sudo apt install -y bind9 bind9utils bind9-doc dnsutils
