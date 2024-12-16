@@ -146,7 +146,7 @@ $ sudo vi /etc/resolv.conf
     nameserver 192.168.0.40
 
 
-## 9) Vérifier que tout fonctionne avec la commabnde "dig"
+## 9) Vérifier que tout fonctionne avec la commande "dig"
 
 $ dig primary.linuxtechi.local
 
